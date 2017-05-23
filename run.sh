@@ -1,9 +1,9 @@
 #!/bin/bash
 
 
-cp .vim ~/
-cp .vimrc ~/
+cp -R .vim ~/
+cp -R .vimrc ~/
 
 cp .bashrc ~/
-srouce .bashrc
+source .bashrc
 
