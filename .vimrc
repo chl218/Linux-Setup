@@ -8,6 +8,9 @@ syntax on
 " Show line numbers
 set number
 
+" Show vertical line
+set colorcolumn=80
+
 " Show file stats
 set ruler
 
@@ -23,6 +26,9 @@ set laststatus=2
 " Last line
 set showmode
 set showcmd
+
+" Auto Indent
+set autoindent
 
 " Searching
 nnoremap / /\v
